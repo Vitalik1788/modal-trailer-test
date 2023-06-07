@@ -1,0 +1,38 @@
+@import '../../node_modules/modern-normalize/modern-normalize.css';
+@import './dropdown.css';
+@import './header.css';
+@import './hero.css';
+@import './weekly-trands.css';
+@import './upcoming.css';
+@import './footer.css';
+@import './library.css';
+@import './movie-modal.css';
+
+@import './stars-rating.css';
+
+.main-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  .main-container {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .main-container {
+    width: 1247px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
